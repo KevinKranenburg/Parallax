@@ -1,0 +1,78 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 70vh;
+  padding: 3em;
+  transition: all 1s linear;
+}
+
+nav {
+  background: #444;
+  position: sticky;
+  transition: top 1s ease-out;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+nav a {
+  color: #a3a3a3;
+  display: block;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+}
+
+.deel {
+  padding: 30vh 3em;
+  background-color: aliceblue;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 3px grey;
+  overflow-x: hidden;
+}
+
+.deel--2 {
+  background-image: url("https://images.pexels.com/photos/1322074/pexels-photo-1322074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.deel--4 {
+  background-image: url("https://images.pexels.com/photos/2968718/pexels-photo-2968718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.deel--6 {
+  background-image: url("https://images.pexels.com/photos/2622868/pexels-photo-2622868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.accent {
+  color: #fff;
+  background-color: #b7005c;
+}
+
+#voortgang {
+  position: fixed;
+  bottom: 0;
+  height: 5px;
+  background-color: #b7005c;
+}
